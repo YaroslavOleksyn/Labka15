@@ -486,7 +486,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     writer.println("x = " + x);
                     writer.println("y = " + y);
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(this, "Error saving solution to file.");
+                    JOptionPane.showMessageDialog(this, "ПОмилка збереження.");
                 }
             }
         } catch (NumberFormatException ex) {
