@@ -490,7 +490,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 }
             }
         } catch (NumberFormatException ex) {
-            JOptionPane.showMessageDialog(this, "Invalid input. Please enter numeric coefficients.");
+            JOptionPane.showMessageDialog(this, "Помилка, введіть ціле число.");
         }
     }
     /**
