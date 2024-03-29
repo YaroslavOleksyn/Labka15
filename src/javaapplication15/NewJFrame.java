@@ -514,7 +514,7 @@ public class NewJFrame extends javax.swing.JFrame {
             double determinant = a11 * a22 * a33 + a12 * a23 * a31 + a13 * a21 * a32 - a13 * a22 * a31 - a12 * a21 * a33 - a11 * a23 * a32;
 
             if (determinant == 0) {
-                JOptionPane.showMessageDialog(this, "Немає розв'язків, детермінант дорівнює нулю");
+                JOptionPane.showMessageDialog(this, "Немає розв'язків, детермінант дорівнює нулю.");
             } else {
                 double x = (b1 * a22 * a33 + a12 * a23 * b3 + a13 * b2 * a32 - a13 * a22 * b3 - a12 * b2 * a33 - b1 * a23 * a32) / determinant;
                 double y = (a11 * b2 * a33 + b1 * a23 * a31 + a13 * a21 * b3 - a13 * b2 * a31 - b1 * a21 * a33 - a11 * a23 * b3) / determinant;
