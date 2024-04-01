@@ -14,6 +14,8 @@ public class JavaApplication15 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        NewJFrame frame = new NewJFrame();
+        frame.setVisible(true);
         // TODO code application logic here
     }
     
